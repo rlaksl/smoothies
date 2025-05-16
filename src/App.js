@@ -7,7 +7,7 @@ import Update from './pages/Update';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <nav>
         <h2>Supabase Smoothies</h2>
         <Link to='/'>Home</Link>
